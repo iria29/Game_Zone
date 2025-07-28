@@ -10,6 +10,5 @@
         <?php require_once __DIR__.'/../controller/c_header.php'; ?>
         <?php require_once __DIR__.'/../controller/c_inici.php'; ?>
         <?php require_once __DIR__.'/../controller/c_footer.php'; ?>
-        	
     </body>
 </html>

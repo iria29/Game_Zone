@@ -8,8 +8,8 @@
         <nav class="navbar-container">	
             <ul class="menu">
                 <li id="logo"><img src="resources/img/headerAndFooter/logo.png" alt="Logo" width="80px"></li>
-                <li id="inicio"><a href="/web/index.php?action=inici"> Inici</a></li>
-                <li id="tipos"><a href="/web/index.php?action=categories"> Categories</a></li>
+                <li id="inicio"><a href="/GameZone/index.php?action=inici"> Inici</a></li>
+                <li id="tipos"><a href="/GameZone/index.php?action=categories"> Categories</a></li>
                 <li id="buscar">
                     <form action="" class="search-form" method="post">
                         <input type="search" placeholder="Buscar.." name="text-search" />
@@ -18,8 +18,8 @@
                 </li>
                 <li id="cesta">
                     <div class="container-icon">
-                        <a href="/web/index.php?action=<?php if($_SESSION["login"] == true) { echo 'carret'; } else { echo 'login'; } ?>"><img class="imgNavBar cesta" src="resources/img/headerAndFooter/cesta.png" alt="imatge cesta"></a>
-                            <?php if($_SESSION["login"] == true) {?>
+                        <a href="/GameZone/index.php?action=<?php if(isset($_SESSION['login']) && $_SESSION["login"] == true) { echo 'carret'; } else { echo 'login'; } ?>"><img class="imgNavBar cesta" src="resources/img/headerAndFooter/cesta.png" alt="imatge cesta"></a>
+                            <?php if(isset($_SESSION['login']) && $_SESSION["login"] == true) {?>
                                 <div class="count-products">
                                     <?php 
                                     $total = 0;
