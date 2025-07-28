@@ -17,7 +17,7 @@ $(document).on("click", ".imgPerfil", function(event) {
             valorSeleccionat = opcio_logejat.value;
 
         
-        $menuDesplegable.load('/controller/c_menuDesplegable.php?logejat=' + encodeURIComponent(valorSeleccionat), function() {
+        $menuDesplegable.load('/GameZone/controller/c_menuDesplegable.php?logejat=' + encodeURIComponent(valorSeleccionat), function() {
         // Una vez cargado, muestra el menú
         $menuDesplegable.addClass('show');
         });

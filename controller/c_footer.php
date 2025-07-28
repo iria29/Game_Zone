@@ -8,8 +8,8 @@
     // Por cada producto de la cesta, añadimos su información al carrito
     if (!empty($_SESSION["producte"])) {
         foreach($_SESSION["producte"] as $productId) {
-        $product = getProductesById($productId[0]);
-        $products[] = [$product[0], $productId[1]];
+            $product = getProductesById($productId[0]);
+            $products[] = [$product[0], $productId[1]];
         }
     }
     
