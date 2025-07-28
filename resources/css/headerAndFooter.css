@@ -1,0 +1,292 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif, Courier, monospace;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+    font-size: 1.8 rem;
+    background-color: #d3e4e7;
+}
+
+body .seccio {
+    padding: 3%;
+}
+
+.container {
+	max-width: 120rem;
+	margin: 0 14rem;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 500;
+	font-size: 2rem;
+    color:#032a33;
+    font-weight: bold;
+}
+
+p{
+    padding: 1.5%;
+    font-size: 1rem;
+}
+
+/* ---------------------------------*/
+/*              HEADER              */
+/* ---------------------------------*/
+
+header .container-navbar{
+    position:fixed;
+    width:100%;
+    left:0;
+    top:0;
+    z-index: 2;
+}
+
+header .container-navbar > .navbar-container{
+	background-color:#82acab;
+    height: 5rem;
+	padding: 2% 4%;
+    display: flex;
+    align-items: center;
+	
+}
+
+header .container-navbar .navbar-container .menu {
+    display: grid;
+    flex-grow: 1;
+	grid-template-areas: 
+	'logo inicio tipos buscar iniciarSesion registro cesta perfil'
+	;
+}
+
+/* ---------------------------------*/
+/*            AREAS GRID            */
+/* ---------------------------------*/
+
+#logo { grid-area: logo; }
+#inicio { grid-area:inicio; }
+#tipos { grid-area:tipos; }
+#buscar{ grid-area:buscar; }
+#iniciarSesion{ grid-area:iniciarSesion; }
+#registro{ grid-area: registro; }
+#cesta{ grid-area: cesta; }
+#perfil{ grid-area: perfil; }
+
+
+/* ---------------------------------*/
+/*               MENU               */
+/* ---------------------------------*/
+
+header .container-navbar .navbar-container .menu li {
+	padding-left: 2%;
+	padding-right: 2%;
+	list-style: none;
+	align-content: center;
+}
+
+header .container-navbar .navbar-container .menu a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color:#032a33;
+    font-weight: 550;
+    text-transform: uppercase;
+    position: relative;
+}
+
+header .container-navbar .navbar-container .menu a::after {
+	content: '';
+	width: 4.2rem;
+	height: 1.5px;
+	background-color: #d3e4e7;
+	position: absolute;
+	bottom: -3px;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	opacity: 0;
+	transition: all 0.3s ease;
+}
+
+header .container-navbar .navbar-container .menu a:hover::after {
+	opacity: 1;
+}
+
+header .container-navbar .navbar-container .menu a:hover {
+	color: #d3e4e7;
+}
+
+/* ---------------------------------*/
+/*           BARRA SEARCH           */
+/* ---------------------------------*/
+
+header .container-navbar .navbar-container .menu .search-form {
+	position: relative;
+	display: flex;
+	align-items: center;
+	border: 2px solid #fff;
+	border-radius: 2rem;
+	background-color: #fff;
+	height: 2.7rem;
+	overflow: hidden;
+	width: 30rem;
+}
+
+header .container-navbar .navbar-container .menu .search-form input {
+	outline: none;
+	font-family: inherit;
+	border: none;
+	width: 20rem;
+	font-size: 1.1rem;
+	padding: 0 2rem;
+	color: #777;
+	cursor: pointer;
+}
+
+.count-products {
+	position: absolute;
+    top: 55%;
+    right: 0;
+    background-color: #880d0d;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.container-icon {
+	position: relative;
+	width: 5rem;
+	height: 5rem;
+}
+
+/* ---------------------------------*/
+/*             IMG MENU             */
+/* ---------------------------------*/
+
+.navbar-container .menu li .imgNavBar {
+	width: 5rem;
+	height: 5rem;
+}
+
+.navbar-container .menu #perfil .imgNavBar {
+	width: 4rem;
+	height: 3.7rem;
+}
+
+/* ---------------------------------*/
+/*              FOOTER              */
+/* ---------------------------------*/
+
+footer {
+	position: absolute; 
+	margin-top: auto;
+	width: 100%;
+
+}
+
+footer .content-navbar{
+	height: 9rem;
+	display: flex;
+	
+	padding: 2% 4%;
+	display: grid;
+	align-items: center;
+	grid-template-areas: 
+	'terminos contacto redes'
+	;
+	background-color: #82acab;
+	color:#032a33;
+	font-weight: 400;
+	width: 100%;
+}
+
+/* ---------------------------------*/
+/*             TERMINOS             */
+/* ---------------------------------*/
+
+footer .content-navbar .terminos {
+	grid-area: terminos;
+	width: 30%;
+	padding-left: 2%;
+	padding-right: 2%;
+	list-style:circle;
+	align-content: center;
+}
+.contacto {grid-area: contacto;}
+
+/* ---------------------------------*/
+/*              XARXES              */
+/* ---------------------------------*/
+
+footer .content-navbar .redes {
+	align-items: center;
+	bottom: 0;
+	width: 200px;
+}
+
+footer .content-navbar .redes #instagramLogo {
+	width: 6rem;
+	height: 4.5rem;
+}
+
+footer .content-navbar .redes #twitterLogo {
+	width: 6rem;
+	height:7.1rem;
+}
+
+/* ---------------------------------*/
+/*         MENU DESPLEGABLE         */
+/* ---------------------------------*/
+
+.menu_desplegable {
+    display: none; /* Per defecte surt ocult */
+    position: absolute; /* Posició relativa al contenidor pare */
+    top: 50px; /* Ajusta segons la posició de la imatge */
+    right: 0;
+	width: 200px;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0;
+    z-index: 9999;
+}
+
+.menu_desplegable li {
+    padding: 10px 20px;
+    cursor: pointer;
+	text-align: center;
+	border: 1px solid black;
+    margin-bottom: -1px; /* Evita duplicació de borders entre elementss */
+}
+
+.menu_desplegable li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Classe per mostrar el menú */
+.menu_desplegable.show {
+    display: block;
+}
+
+.imgPerfil, .cesta {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 1;
+}
+
+.imgNavBar.imgPerfil:hover, .imgNavBar.cesta:hover {
+    opacity: 0.5;
+    transform: scale(1.2); 
+} 	

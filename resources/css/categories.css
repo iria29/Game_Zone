@@ -1,0 +1,80 @@
+/* ---------------------------------*/
+/*           CATEGORIES             */
+/* ---------------------------------*/
+
+.categories {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	margin: 0 4rem;
+	padding-top: 2rem;
+	margin-top: 6rem;
+	margin-bottom: 3rem;
+}
+
+.container-categories {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 3rem;
+}
+
+.card-categoria {
+    min-width: 188px; 
+	height: 20rem;
+    display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    gap:2rem;
+    position: relative;
+    overflow: hidden;
+	
+}
+
+.card-categoria img {
+    width: 100%;
+	
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.contingut-categoria {
+    text-align: center;
+}
+
+.contingut-categoria .title {
+    font-size: 1.9rem;
+    text-align: center;
+    z-index: 1;
+	color: #fff;
+	position: relative;
+    padding-bottom: 2rem;
+}
+
+.contingut-categoria .title::after {
+	content: '';
+	width: 2.5rem;
+	height: 2px;
+	background-color: #fff;
+	position: absolute;
+	bottom: 1rem;
+	left: 50%;
+	transform: translate(-50%, 50%);
+}
+
+.contingut-categoria a {
+    text-decoration: none;
+	font-size: 1.4rem;
+	color: #fff;
+	cursor: pointer;
+}
+
+.contingut-categoria a:hover {
+    font-weight: bold;
+}

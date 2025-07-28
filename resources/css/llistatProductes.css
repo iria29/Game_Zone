@@ -1,0 +1,124 @@
+.productes {
+	padding-top: 5%;
+}
+
+/* ---------------------------------*/
+/*              BANNER              */
+/* ---------------------------------*/
+.banner {
+	height: 43rem;
+	background-size: cover;
+	background-position: center;
+}
+
+.banner img {
+	width: 100%;
+    height: 40rem;
+    object-fit: cover;
+    filter: brightness(50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+	
+}
+
+.content-banner {
+	max-width: 90rem;
+	margin: 0 auto;
+	padding: 17rem 0;
+}
+
+.content-banner h2 {
+	color: #fff;
+	font-size: 1.8rem;
+	font-weight: 500;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+
+.content-banner a {
+    size: 10rem;
+	margin-top: 2rem;
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+    padding: 1rem 1rem;
+	text-transform: uppercase;
+	border-radius: 3rem;
+    margin-top: 0.5rem;
+}
+
+.content-banner a:hover {
+    color: #000000;
+	background-color: #fff;
+}
+
+/* ---------------------------------*/
+/*          TOP PRODUCTS            */
+/* ---------------------------------*/
+
+.specials {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	margin: 0 4rem;
+	padding-bottom: 3rem;
+}
+
+/* Products */
+.container-products {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 27rem);
+	justify-content: center;
+	gap: 3rem;
+}
+
+.card-product {
+	background-color: #ffffff;
+	padding: 2rem 3rem;
+	border-radius: 0.5rem;
+}
+
+.container-img {
+	position: relative;
+	text-align: center;
+}
+
+.container-img img {
+	width: 100%;
+	height: 25.804rem;
+	width: 19.328rem;
+	object-fit: cover;
+}
+
+.content-card-product {
+	display: grid;
+	justify-items: center;
+	grid-template-columns: 1fr 0.6fr;
+	grid-template-rows: repeat(4, min-content);
+	row-gap: 1rem;
+    padding-top: 1.5rem;
+}
+
+.content-card-product h3{
+	grid-row: 2/3;
+	grid-column: 1/-1;
+	font-weight: 400;
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+	cursor: pointer;
+}
+
+.content-card-product h3 a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.content-card-product h3 .name {
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 22rem;
+    text-align: center;
+    font-weight: 400;
+}

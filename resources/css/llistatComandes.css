@@ -1,0 +1,154 @@
+/* ---------------------------------*/
+/*             LLISTAT              */
+/* ---------------------------------*/
+
+.carrito {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	padding-bottom: 3rem;
+	width: 100%;
+	margin: 2.5rem;
+}
+
+.container-products {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
+.card-element {
+	
+	background-color: #ffffff;
+	padding: 2rem;
+	border-radius: 0.5rem;
+	width: 70%;
+	height: auto;	
+}
+
+.card-element #data{
+    color: #82acab;
+}
+
+.card-element #total {
+	position: relative;
+    font-weight: 600;
+    font-size: 1.1rem;
+	justify-self: right;
+	padding: 0;
+	padding-top: 1%;
+}
+
+.container-img {
+	position: relative;
+	text-align: left;
+	flex: 1;
+    padding-right: 1%;
+	padding-top: 1%;
+}
+
+.container-img img {
+	width: 100%;
+	height: 100%;
+	flex: 1;
+	object-fit: cover;
+}
+
+.content-name {
+	position: relative;
+	justify-items: center;
+	flex: 1; 
+    padding: 1%;
+}
+
+.content-name h3 {
+	text-align: center;
+	justify-content: center;
+	font-weight: 400;
+	font-size: 1.2rem;
+	padding-left: 1.5%;
+}
+
+
+
+.content-descripcio {
+	position: relative;
+	bottom: 20px; 
+	align-items: center;
+	justify-items: left;
+	width: 100%;
+	padding-top: 5%;
+}
+
+.quantProd {
+	flex: 1;
+	position: relative;
+    padding: 1%;
+}
+
+.info {
+	position: absolute; 
+	width: 7rem;
+	bottom: 35px; 
+    right: 200px; 
+}
+
+.productes { 
+	display: flex;
+	flex-direction: row;
+	padding-top: 7%;
+	padding-bottom: 2%;
+	height: auto;
+    width: 100%;
+}
+
+.comanda {
+    width: 100%; 
+    height: 10rem; 
+    display: flex;
+    flex-direction: row;
+	padding-bottom: 1%;
+} 
+
+/* ---------------------------------*/
+/*         MISSATGE ERROR           */
+/* ---------------------------------*/
+
+.missatge {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	padding-bottom: 3rem;
+	margin: 2.5rem;
+	width: 100%;
+}
+
+.card-resum {
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+	border-radius: 0.5rem;
+	width: 100%;
+	height: auto;
+	gap: 1rem;
+	padding: 2rem;
+    align-items: center;
+	justify-content: center;
+}
+
+.card-resum h2 {
+	font-size: 1.4rem;
+	color: #82acab;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+}
+
+@media screen and (max-width:1350px){
+	.comanda {
+		margin: 1rem;
+	}
+	
+}

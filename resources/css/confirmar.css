@@ -1,0 +1,71 @@
+/* ---------------------------------*/
+/*          RESUM CARRET            */
+/* ---------------------------------*/
+
+.productes {
+	display: flex;
+	flex-direction: row;
+	padding-top: 6%;
+	padding-bottom: 6%;
+    align-items: center;
+	justify-content: center;
+    height: 85%;
+}
+
+.missatge {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	padding-bottom: 3rem;
+	margin: 2.5rem;
+	width: 50%;
+    
+}
+
+.card-resum {
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+	border-radius: 0.5rem;
+	width: 100%;
+	height: auto;
+	gap: 1rem;
+	padding: 2rem;
+    align-items: center;
+	justify-content: center;
+}
+
+.card-resum h3 {
+	font-size: 1.2rem;
+    width: 22rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.card-resum h2 {
+	font-size: 1.4rem;
+	color: #82acab;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* ---------------------------------*/
+/*             BUTTON               */
+/* ---------------------------------*/
+.button {
+	border: none;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #252525;
+	color: #f7f7f7;
+	gap: 5px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+#tornar {
+	background-color: #82acab;
+}

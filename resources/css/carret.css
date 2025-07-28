@@ -1,0 +1,267 @@
+/* ---------------------------------*/
+/*          TOP PRODUCTS            */
+/* ---------------------------------*/
+
+.carrito {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	padding-bottom: 3rem;
+	width: 60%;
+	margin: 2.5rem;
+}
+
+
+
+.container-products {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
+.card-element {
+	display: flex;
+	flex-direction: row;
+	background-color: #ffffff;
+	padding: 2rem 3rem;
+	border-radius: 0.5rem;
+	width: 70rem;
+	height: 10rem;	
+}
+
+.container-img {
+	position: relative;
+	text-align: left;
+	flex: 1;
+}
+
+.container-img img {
+	width: 100%;
+	height: 100%;
+	flex: 1;
+	object-fit: cover;
+}
+
+.content-card-element {
+	position: relative;
+	justify-items: center;
+	row-gap: 1rem;
+	flex: 1; 
+}
+
+.content-card-element h3 {
+	text-align: center;
+	justify-content: center;
+	font-weight: 400;
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+	cursor: pointer;
+}
+
+.content-card-element h3 a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.content-card-element h3 .name {
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 22rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.content-descripcio {
+	position: absolute;
+	bottom: 20px; 
+	align-items: center;
+	justify-items: center;
+}
+
+.button-buidar, .card-resum {
+	position: relative; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 5rem; 
+}
+
+.eliminarProd {
+	flex: 1;
+	position: relative;
+}
+
+.info {
+	position: absolute; 
+	width: 7rem;
+	bottom: 35px; 
+    right: 200px; 
+}
+
+/* ---------------------------------*/
+/*          RESUM CARRET            */
+/* ---------------------------------*/
+
+.productes {
+	display: flex;
+	flex-direction: row;
+	padding-top: 6%;
+	padding-bottom: 2%;
+	height: auto;
+}
+
+
+.resum {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	padding-bottom: 3rem;
+	margin: 2.5rem;
+	width: 25%;
+}
+
+.card-resum {
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+	border-radius: 0.5rem;
+	width: 100%;
+	height: auto;
+	gap: 1rem;
+	padding: 2rem;
+}
+
+.card-resum h3 {
+	font-size: 1.2rem;
+    width: 22rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.card-resum h2 {
+	font-size: 1.4rem;
+	color: #82acab;
+    width: 22rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.resum p {
+	text-align: left;
+	width: 80%;
+}
+
+
+/* ---------------------------------*/
+/*             BUTTON               */
+/* ---------------------------------*/
+
+.button {
+	border: none;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #252525;
+	color: #f7f7f7;
+	gap: 5px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.button:hover {
+	color: #82acab;
+}
+
+#buidar-producte {
+	background-color: #82acab;
+	color: #f7f7f7;
+}
+
+#buidar-producte:hover {
+	color: #f7f7f7;
+}
+
+#eliminar-producte {
+	position: absolute; 
+	bottom: 10px; 
+    right: 55px; 
+}
+
+.quantity-control {
+	position: absolute; 
+	bottom: 60px; 
+    right: 17px; 
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	font-family: Arial, sans-serif;
+}
+
+.boto-quantitat {
+	background-color: #f0f0f0;
+	border: 1px solid #ccc;
+	color: #333;
+	font-size: 18px;
+	font-weight: bold;
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: background-color 0.3s, transform 0.2s;
+}
+  
+.boto-quantitat:hover {
+	background-color: #e0e0e0;
+}
+  
+
+.boto-quantitat:active {
+	transform: scale(0.95);
+}
+  
+.quantitat {
+	width: 50px;
+	height: 40px;
+	text-align: center;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #fff;
+	color: #333;
+	pointer-events: none; /* Desactiva la edición manual */
+}
+
+@media screen and (max-width: 1610px) {
+	.carrito {
+		width: 60%;
+	}
+
+	.card-element {
+		flex-direction: column;
+		height: 34rem;
+		width: 100%;
+	}
+
+	.content-descripcio {
+		display: flex;
+		width: 100%;
+		justify-content: center;
+	}
+
+	.container-img {
+		width: 100%;
+		height: 20rem;
+	}
+
+	.card-resum h2 {
+		font-size: 1rem;
+	}
+	
+}

@@ -1,0 +1,54 @@
+/* ---------------------------------*/
+/*             SECTIONS             */
+/* ---------------------------------*/
+
+body .main{
+    margin-top: 4rem; 
+    text-align: center;
+}
+
+body .seccio {
+    padding: 3%;
+}
+
+p{
+    padding: 1.5%;
+    font-size: 1rem;
+}
+
+/* ---------------------------------*/
+/*            FORMULARI             */
+/* ---------------------------------*/
+
+.main .formula{
+	padding-bottom: 2%;
+	padding-top: 2rem;
+    background-color: #d3e4e7;
+}
+
+.main .formula form {
+	padding:2%;
+	margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 27%; 
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main label, .main input {
+    margin-bottom: 15px;
+}
+
+.main .formula .formulari input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+.main .formula button {
+    padding: 2%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
