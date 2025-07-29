@@ -6,10 +6,9 @@
     </head>
 
     <body>
-        <?php require '/home/TDIW/tdiw-l1/public_html/controller/c_header.php'; ?>
+        <?php require_once __DIR__.'/../controller/c_header.php'; ?>
         
-        <?php require '/home/TDIW/tdiw-l1/public_html/controller/c_login.php'; ?>
-
+        <?php require_once __DIR__.'/../controller/c_login.php'; ?>
     </body>
 </html>
 
