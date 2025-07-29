@@ -8,10 +8,10 @@
                     $preuTotal = 0;
                     $ultimoProducto = null;
 
-                    foreach($productes as $producte) {  
-                        $preuTotal = $preuTotal + ($producte[0]["preu"] * $producte[1]);
-                        $totalProductes = $totalProductes + $producte[1];
-                        $ultimProducte = $producte[0]["name"];
+                    foreach($products as $product) {  
+                        $preuTotal = $preuTotal + ($product[0]["preu"] * $product[1]);
+                        $totalProductes = $totalProductes + $product[1];
+                        $ultimProducte = $product[0]["name"];
                     }
             ?>
             <div class='terminos'> 
