@@ -7,11 +7,11 @@
     </head>
 
     <body>
-        <?php require '/home/TDIW/tdiw-l1/public_html/controller/c_header.php'; ?>
+        <?php require __DIR__.'/../controller/c_header.php'; ?>
 		
-        <?php require '/home/TDIW/tdiw-l1/public_html/controller/c_confirmarCompra.php' ; ?>
+        <?php require __DIR__.'/../controller/c_confirmarCompra.php' ; ?>
 
-		<?php require '/home/TDIW/tdiw-l1/public_html/controller/c_footer.php'; ?>
+		<?php require __DIR__.'/../controller/c_footer.php'; ?>
         	
     </body>
 </html>

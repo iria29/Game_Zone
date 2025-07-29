@@ -11,7 +11,7 @@
         }
         elseif (isset($_POST['comprarProd'])) {
             // Redireccionem a la pàgina de confirmar compra
-            header("Location: /index.php?action=confirmar");
+            header("Location: index.php?action=confirmar");
             exit;
         }
         elseif (isset($_POST['eliminarCistell'])) {
@@ -57,14 +57,16 @@
             }
         }
         
-        header("Location: /index.php?action=carret");
+        header("Location: index.php?action=carret");
         exit;
     }
     else {
         // Per cada producte del cistell, agafem la seva informació del carret
-        foreach($_SESSION["producte"] as $productId) {
-            $product = getProductesById($productId[0]);
-            $productes[] = [$product[0], $productId[1]];
+        if(isset($_SESSION["producte"])) {
+            foreach($_SESSION["producte"] as $productId) {
+                $product = getProductesById($productId[0]);
+                $productes[] = [$product[0], $productId[1]];
+            }
         }
     }
 
