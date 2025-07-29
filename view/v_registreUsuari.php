@@ -3,7 +3,7 @@
             <h2>
                 Formulari de registre
             </h2>
-            <form class="formulari" method="post" action="/index.php?action=registre">
+            <form class="formulari" method="post" action="index.php?action=registre">
                 <label for="nom">Nom complet:</label>
                 <input type="text" id="nom" name="nom" required alt="nom" placeholder="Nom" maxlength="50"> <br>
                 

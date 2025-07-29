@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
 
         echo "<script>
                 alert('Has iniciat sessió correctament');
-                window.location.href = '/index.php?action=inici';
+                window.location.href = 'index.php?action=inici';
               </script>";
     } else {
         $error = "El correu o la contrasenya estan malament. Torna a provar.";
@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
 <div class="main">
     <section class="formula">
         <h2>Iniciar sessió</h2>
-        <form action="/index.php?action=login" class="formulari" method="post">
+        <form action="index.php?action=login" class="formulari" method="post">
             <label for="correu">Correu electrònic: </label>
             <input type="email" name="correu" id="correu" required alt="correu electrònic" placeholder="Correu"
                    value="<?php echo htmlspecialchars($_POST['correu'] ?? ''); ?>"> <br>
