@@ -13,21 +13,21 @@
 				<img src="resources/img/categories/cooperatius/Cooperatius.jpg" alt="Imagen de Cooperatius">
 					<div class="contingut-categoria">
 						<p class="title">Cooperatius</p>
-						<a href="/GameZone/index.php?action=productes&category_id=2" class="link">Productes</a>
+						<a href="index.php?action=productes&category_id=2" class="link">Productes</a>
 					</div>
 			</div>
 			<div class="card-categoria">
 				<img src="resources/img/categories/shooter/Shooter.jpg" alt="Imagen de shooter">
 				<div class="contingut-categoria">
 					<p>Shooter</p>
-					<a href="/GameZone/index.php?action=productes&category_id=1">Productes</a>
+					<a href="index.php?action=productes&category_id=1">Productes</a>
 				</div>
 			</div>  
 			<div class="card-categoria">
 				<img src="resources/img/categories/classics/Classics.jpg" alt="Imagen de Clàssics">
 				<div class="contingut-categoria">
 					<p>Clàssics</p>
-					<a href="/GameZone/index.php?action=productes&category_id=8">Productes</a>
+					<a href="index.php?action=productes&category_id=8">Productes</a>
 				</div>
 			</div>               
 		</div>
