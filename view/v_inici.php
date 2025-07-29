@@ -42,7 +42,7 @@
 					<img src="resources/img/categories/shooter/battlefield/battlefieldCard.jpg" alt="Battlefield V" />
 				</div>
 				<div class="content-card-product">
-					<h3><a href="/GameZone/index.php?action=detallsProducte&producteId=8"> Battlefield V </a></h3>
+					<h3><a href="index.php?action=detallsProducte&producteId=8"> Battlefield V </a></h3>
 				</div>
 					<p class="price"> 49,99 € </p>
 			</div>
@@ -52,7 +52,7 @@
 					<img src="resources/img/categories/terror/deadByDaylight/deadByDaylightCard.jpg" alt="Dead by Daylight" />
 				</div>
 				<div class="content-card-product">
-					<h3><a href="/GameZone/index.php?action=detallsProducte&producteId=10"> Dead by Daylight </a></h3>
+					<h3><a href="index.php?action=detallsProducte&producteId=10"> Dead by Daylight </a></h3>
 				</div>
 				<p class="price"> 19,99 €</p>
 			</div>
@@ -62,7 +62,7 @@
 					<img src="resources/img/categories/carrera/f124/f1Card.jpg" alt="F1 24" />
 				</div>
 				<div class="content-card-product">
-					<h3><a href="/GameZone/index.php?action=detallsProducte&producteId=14">F1 24</a></h3>
+					<h3><a href="index.php?action=detallsProducte&producteId=14">F1 24</a></h3>
 				</div>
 				<p class="price">69,99 €</p>
 			</div>
@@ -72,7 +72,7 @@
 					<img src="resources/img/categories/esports/fc25/fifa25Card.jpg" alt="FC 25" />
 				</div>
 				<div class="content-card-product">
-					<h3><a href="/GameZone/index.php?action=detallsProducte&producteId=18"> FC 25 </a></h3>
+					<h3><a href="index.php?action=detallsProducte&producteId=18"> FC 25 </a></h3>
 				</div>
 				<p class="price">79,99 €</p>
 			</div>
@@ -82,7 +82,7 @@
 					<img src="resources/img/categories/cooperatius/itTakesTwo/itTakesTwoCard.jpg" alt="It takes two" />
 				</div>
 				<div class="content-card-product">
-					<h3><a href="/GameZone/index.php?action=detallsProducte&producteId=3"> It takes two </a></h3>
+					<h3><a href="index.php?action=detallsProducte&producteId=3"> It takes two </a></h3>
 				</div>
 				<p class="price">39,95 € </p>
 			</div>
@@ -92,7 +92,7 @@
 					<img src="resources/img/categories/cooperatius/overcooked2/overcookedCard.jpg" alt="Overcooked 2!" />
 				</div>
 				<div class="content-card-product">
-					<h3> <a href="/GameZone/index.php?action=detallsProducte&producteId=1">Overcooked 2!</a></h3>
+					<h3> <a href="index.php?action=detallsProducte&producteId=1">Overcooked 2!</a></h3>
 				</div>
 				<p class="price">22,99 €</p>
 			</div>
@@ -102,7 +102,7 @@
 					<img src="resources/img/categories/cooperatius/stardewValley/stardewValleyCard.jpg" alt="Stardew Valley" />
 				</div>
 				<div class="content-card-product">
-					<h3><a href="/GameZone/index.php?action=detallsProducte&producteId=4"> Stardew Valley</a></h3>
+					<h3><a href="index.php?action=detallsProducte&producteId=4"> Stardew Valley</a></h3>
 				</div>
 				<p class="price">14,99 €</p>
 			</div>
@@ -112,7 +112,7 @@
 					<img src="resources/img/categories/classics/superMarioWonder/superMarioWonderCard.jpg" alt="Super Mario Bros Wonder" />
 				</div>
 				<div class="content-card-product">
-					<h3><a href="/GameZone/index.php?action=detallsProducte&producteId=45">Super Mario Bros Wonder</a></h3>
+					<h3><a href="index.php?action=detallsProducte&producteId=45">Super Mario Bros Wonder</a></h3>
 				</div>
 				<p class="price">59,99 €</p>
 			</div>			
